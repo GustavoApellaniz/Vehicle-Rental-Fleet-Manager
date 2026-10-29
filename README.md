@@ -41,21 +41,6 @@ When saved, the fleet is written to veiculos.txt, one vehicle per line, with fie
 
 1998;AAA-8888;Gol;89.9
 
-## How to run
-Make sure Python 3.9 or newer is installed:
-bash
-   python3 --version
-Run the program from the project folder:
-bash
-   python3 <file_name>.py
-Choose an option from the menu. After each action the program asks whether you want to continue (s / n).
-Possible improvements
-Validate user input (for example, catch ValueError when a number is expected)
-Prevent duplicate license plates
-Check the fleet limit when loading from a file
-Replace the global variable and the separate if blocks with elif or a dispatch dictionary
-Use a class (Veiculo) instead of dictionaries
-Add unit tests
 Author
 
 Gustavo Fraga Apellaniz GitHub: @GustavoApellaniz
